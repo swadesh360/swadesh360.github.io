@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
 
 
@@ -27,7 +26,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right"> 
-            <li><a href="customers/customers.html">Customers</a></li>
+            <li><a href="../customers/customers.html">Customers</a></li>
             <li><a href="#form">Contact</a></li>
             <li><a href="#information1">Services</a></li>
             <li><a href="#design1">About</a></li>
@@ -41,7 +40,7 @@
     		<div class="row">
     			<div class="col-md-6 col-sm-6">
     				<div class="design-left">
-    					<img src="Images/networking.jpg" style="width:90%">
+    					<img src="images/networking.jpg" style="width:90%">
     				</div>
     			</div>
 
@@ -49,7 +48,7 @@
     				<div class="design-right" id="design1">
     					<h1> Networking services providers in Sydney.</h1>
     					<p> Networking services in sydney known specially for migration services and provides a sophisticated services at a time with no delays and intervals. Focusing on hardware maintainace, server installation , software updates in BIOS , and many more. <p>
-    					<a href="about/aboutPage.html" class="btn btn-default btn-lg showcase-btn">Read more</a>
+    					<a href="../About/About.html" class="btn btn-default btn-lg showcase-btn">Read more</a>
     				</div>
 
 
@@ -75,7 +74,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="information-left col-md-6 col-lg-6">
-    				<img src="Images/2.jpg" style="width:90%">
+    				<img src="images/2.jpg" style="width:90%">
     			</div>
 
     		    <div class="information-right col-md-6 col-lg-6">
@@ -83,7 +82,7 @@
     		    	<h2> Get to know about Aussie Networks and Services </h2>
     		        <p> One of the best network service providers in australia with more than 5 years of experience in relative fields and the people who work for Aussie Network services are experts in server migration, hardware refabrication, system configuration , network installation and many more .</p>
     		       </br>
-    		       <a class="btn btn-default btn-lg info-btn" href="services/servicePage.html">Read more</a>	
+    		       <a class="btn btn-default btn-lg info-btn" href="../services/servicePage.html">Read more</a>	
     		    </div>
     		</div>
     	</div>
@@ -142,14 +141,12 @@
     <footer>
     	<p class="text-center">AussieNetworks Copyright &copy; 2018</p>
     </footer>
-	 
-	  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
-
-
 
 <script>
         window.sr = ScrollReveal();
@@ -160,12 +157,12 @@
         sr.reveal('.design-left', {
           duration: 2000,
           origin:'top',
-          distance:'150px'
+          distance:'300px'
         });
         sr.reveal('.design-right', {
           duration: 2000,
           origin:'right',
-          distance:'150px'
+          distance:'300px'
         });
         sr.reveal('.showcase-btn', {
           duration: 2000,
@@ -188,19 +185,19 @@
         sr.reveal('.information-left', {
           duration: 2000,
           origin:'left',
-          distance:'150px',
-          viewFactor: 0.15
+          distance:'300px',
+          viewFactor: 0.2
         });
         sr.reveal('.information-right', {
           duration: 2000,
           origin:'right',
-          distance:'150px',
-          viewFactor: 0.15
+          distance:'300px',
+          viewFactor: 0.2
         });
  </script>
 
  <script>
-    $(function scroll() {
+    $(function() {
       // Smooth Scrolling
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -216,6 +213,5 @@
       });
     });
     </script>
-	
 </body>
 </html>

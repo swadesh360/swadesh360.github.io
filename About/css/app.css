@@ -21,10 +21,11 @@ padding:5px;
 {
     
 	text-align: center;
-	padding-top:
+	padding-top: 100px;
 	font-family: inherit;
-	font-weight: 700;
-	  
+	font-weight: 600;
+	width: 100%;
+    font-size; 	  
 }
 h1{
 	font-weight: 700;
@@ -71,12 +72,32 @@ hr{
 	font-family: Roboto;
 	font-size: 17px;
 }
-#hover:hover
-{
-	color:blue;
-	text-decoration: underline;
+  .styling{
+	font-family: Roboto;
+	font-size: 26px;
+	padding: 50px;
+	text-decoration: none;
+	color: black;
 }
-
-
-    
+.custStyle{
+	font-size: 25px;
+	font-family: Roboto;
+}
+  .custHead{
+  	margin-left: 5%;
+  	padding-top:10px;
+  }
+  #feedback
+{
+	
+	padding:1px;
+	margin-top: 10px;
+	text-align:center;
+}
+  img {
+  float: left;
+  width: 400px; 
+  height: 250px;
+  padding: 20px
+  }  
 	
